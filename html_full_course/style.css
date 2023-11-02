@@ -1,0 +1,29 @@
+ .classname{
+    position: relative;        /* pos-*/
+    position: static;          /* pos:*/
+    display: block;           /* d */
+    display: inline;          /* d:*/
+
+    visibility: hidden;        /* v */
+    overflow: hidden;          /* ov */
+    cursor: pointer;           /* cur */
+    margin:9px;                /* m */ 
+    padding: 9px;              /* p */
+    background: #000;          /* bg */
+    background-color: #fff;    /* bgc */
+    color: #000;               /* c */
+    color: rgba(red, green, blue, alpha) /*ra */
+} 
+
+.bg-blue{
+    background-color: blue;    /* bgc */
+    color: white;               /* c */
+
+}
+table{
+    width: 50%;                /* w */
+    border: 1px solid white;    /* b */
+}
+td,th{
+    border:red;
+} 
