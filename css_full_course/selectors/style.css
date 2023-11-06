@@ -7,6 +7,15 @@ body{
     font:24px;
     background-color: rgb(215, 225, 222)09, 202;
 }
+p:hover{
+    font-style:italic;
+    /* psedo selectors */
+}
+#first>p{
+    color:pink;
+    /* nested selectors */
+}
+
 #first{
     color: red;         
     /* id should be unique */
@@ -14,7 +23,7 @@ body{
 }
 .purple{
     color: purple;
-    font-family: monospace;
+    /* font-family: monospace; */
     /* class can be more than one or can gien to many elements */
 }
 .highlight{
@@ -25,3 +34,18 @@ body{
 .hello{
     background-color: red;
 }
+
+/* grouping selectors */
+#second , #third{
+    font-size:30px;
+    color: green;
+}
+/* priority of css as accordingly
+id>class>element 
+id has highest priority
+classes should be used more
+*/
+
+
+/* !important is use when some css needs to be inforced forcibly , not to used in general purpose */
+
