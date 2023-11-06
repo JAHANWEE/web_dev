@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    width:100%;                 /* boiler plate for css*/
+    height:100%;
+}
+
+/* . for class
+# for id
+tag name for  a tag
+*/
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}

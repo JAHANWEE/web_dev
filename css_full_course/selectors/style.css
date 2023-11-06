@@ -1,0 +1,27 @@
+*
+{
+    /*   *  represents universal selctors for all element of the html */
+}
+
+body{
+    font:24px;
+    background-color: rgb(215, 225, 222)09, 202;
+}
+#first{
+    color: red;         
+    /* id should be unique */
+
+}
+.purple{
+    color: purple;
+    font-family: monospace;
+    /* class can be more than one or can gien to many elements */
+}
+.highlight{
+    font: cursive;
+    background: yellow;
+    font-weight: bolder;
+}
+.hello{
+    background-color: red;
+}
