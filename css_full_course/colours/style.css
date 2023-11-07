@@ -1,0 +1,24 @@
+/* !important use coolers website to explore new colour palettes */
+
+body{
+font-size: 24px;
+font-family: Arial,Arial, Helvetica, sans-serif;
+text-align: center;
+color:  pink;
+background: #262424;  
+/* background: rgb(rgb(0, 0, 0)); has numbers from 0 to 255 where 0 is in all coordinates its black and 255 in all its white */
+
+}
+/* color - for text color
+background-color - for background's color */
+
+    /* background: hsl(hue, saturation, lightness); has for type of colour from 0 to 360 degrees
+    0 has black and white in terms of saturation
+     */
+article{
+    background-color: #4a4e69;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 20px;  /*to give the curved part of the box  */
+}
+

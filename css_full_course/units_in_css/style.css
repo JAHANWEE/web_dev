@@ -1,0 +1,28 @@
+main{
+    border: 5px dotted;  /*gives a dotted border with 5 px width */
+    /* border: 5px solid  green;  gives a solid border of 5 px 
+    border-radius: 10px;   gives a curved radius to the border of 10 px */
+    width:30%;  /* takes 50 percent of the page */
+}
+header{
+    font-size: 2em;  /* multiplies the size by 5 , doubles the size of its parent */
+}
+section{
+    border: 5px solid red;
+    /* width: 50%; as section is a child will be take 50 percent of parent that is just 25 percent oof the page */
+    width: 50vw;
+    /* height: 200vh;*/
+} 
+
+/* px: is for pixel is absolute*/
+/* vw : 50vw --view width that is the width that a be  50 percent of the viewed    ------is a absolute unit does not change even with respect to the parent*/
+
+
+/* vh , vw , em , rem  are absolute works as accoding to the parent property*/
+
+
+/* rem{
+    relative to the root element
+} */
+
+
