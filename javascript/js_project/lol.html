@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lol project</title>
+</head>
+<body>
+   <input placeholder="Enter thy Text" id="texthere">
+   <button id="add" onclick="getAns()">ADD</button>
+   <button id="clear" onclick="cleared()">CLEAR</button>
+   <hr>
+   <h1 id="display"></h1>
+</body>
+<script>
+    getAns=()=>{
+        let texts =document.getElementById('texthere').value;
+        localStorage.setItem("nun",texts);
+        document.getElementById('display').textContent=localStorage.getItem("nun"); 
+    }
+    cleared=()=>{
+        document.getElementById('display').textContent="";
+        localStorage.clear();
+    }
+</script>
+</html>
