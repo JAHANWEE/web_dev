@@ -212,14 +212,31 @@ function summ(a,b){
 
 
 //setTimeout and SetInterval
-logKaro=()=>{
-    console.log("This is a log")
-}
-setTimeout(logKaro , 2000);   // calls the function after 2000 miliseconds or 2s
-logKaro=()=>{
-    document.querySelectorAll('.container')[0].innerHTML="Set kar diya interval"
-    console.group("set kr diya")
-}
- let clear =setTimeout(logKaro , 2000); // basically it changes the inner HTML of the first container by "set kr diya interval after 2 seconds"
+// logKaro=()=>{
+//     console.log("This is a log")
+// }
+// setTimeout(logKaro , 2000);   // calls the function after 2000 miliseconds or 2s
+// logKaro=()=>{
+//     document.querySelectorAll('.container')[0].innerHTML="Set kar diya interval"
+//     console.group("set kr diya")
+// }
+//  let clear =setTimeout(logKaro , 2000); // basically it changes the inner HTML of the first container by "set kr diya interval after 2 seconds"
 // setInterval(logKaro , 1000)   // it reruns the function after each 1s repeatedly
-clearInterval(clear) // basically stops the setIntervala and same for setTimeout
+// clearInterval(clear) // basically stops the setIntervala and same for setTimeout
+
+//LocalStorage- helps us to store data in users device in form of string
+// localStorage.setItem('name','jaani');  //adds name:jaaani in localStorage
+// localStorage.clear() // clears the localStorage
+// localStorage.removeItem(item);
+// localStorage.getItem('name');  // gives jaani
+
+//JSON(Javascript Object Notation) : file format 
+// let obj ={name:"jaani" , length:1 , a: {this: "that"}}  // json only supports " "(double quotes)
+// jso= JSON.stringify(obj); // converts object to a json string
+// console.log(jso); // json string
+// console.log( typeof jso);  // gives string
+// console.log( typeof obj); // gives object
+// parsed =JSON.parse(`{"name":"jaani","length":1,"a":{"this":"that"}}`)
+// console.log(parsed);
+
+
