@@ -1,0 +1,8 @@
+*{
+    color: black;
+    /* background-color: brown; */
+    background-image: linear-gradient(rgba(45, 37, 35, 0.5), rgba(102, 91, 79, 0.5)),
+                  url("./download.jpeg");
+    background-size: 70px 70px;
+    background-repeat:round;   
+}

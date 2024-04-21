@@ -10,13 +10,16 @@
    <button id="add" onclick="getAns()">ADD</button>
    <button id="clear" onclick="cleared()">CLEAR</button>
    <hr>
-   <h1 id="display"></h1>
+   <!-- <h1 id="display"></h1> -->
+   <h2 class="content">Your task is here</h2>
+   <h2 class="content"></h2>
 </body>
 <script>
     getAns=()=>{
         let texts =document.getElementById('texthere').value;
         localStorage.setItem("nun",texts);
-        document.getElementById('display').textContent=localStorage.getItem("nun"); 
+        let a=document.getElementsByClassName('content');
+        a[1].textContent =localStorage.getItem("nun")
     }
     cleared=()=>{
         document.getElementById('display').textContent="";
