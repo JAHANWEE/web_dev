@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Revise</title>
+    <style>
+        /* div > p{
+    color:red;    parent child
+    /*works for if p is the child of div tag */
+/* } */
+
+/* div+p{
+    color:violet;  adjacent sibling
+    works to select the tags where p is palced just below the div
+} */
+
+/*  */
+/* div ~ p{
+    color:magenta;
+} */
+  /* pseudo selector */
+  /* .warning::before{
+    content:"WARNING";
+    color:red;
+
+  }
+  .quote::after{
+    content: "- jaani";
+    color: aqua;
+  } */
+  /* input[type=text]:focus{  //focus only on the input tag with type text
+    color:black;
+    background-color: pink; 
+   } */
+   .container{
+    height:2000px;
+    border:2px solid red ;
+   }
+   .pos{
+        border:1px solid black;
+        font-size: 20px;
+        display: inline-block;
+        height: 70px;
+        width: 70px;
+        text-align:center;
+        border-radius: 10px;
+   }
+   #three{
+    /* position: static;   default; */
+    /* position:absolute;  works according to parent */
+    /* position:relative; */
+    position:sticky;
+    top:50px;
+    /* left:10px */
+
+   }
+    </style>
+</head>
+<body>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+    <p>Lorem, ipsum.</p> -->
+    <!-- <div class="warning"> -->
+        <!-- <p>hello , aap kaise hain</p>
+        <p>Allow cookies</p>
+    </div>
+    <div class="quote">
+        <p>Quote of the day , work hard untill you succeed</p>
+       Name:<input type="text" class="inp">
+       Email: <input type="email"> -->
+    <!-- </div> -->
+    <div class="container">
+        <div class="pos">One</div>
+        <div class="pos">Two</div>
+        <div class="pos" id="three">Three</div>
+        <div class="pos">Four</div>
+    </div>
+</body>
+</html>

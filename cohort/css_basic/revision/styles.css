@@ -1,8 +1,27 @@
 *{
     color: black;
     /* background-color: brown; */
-    background-image: linear-gradient(rgba(45, 37, 35, 0.5), rgba(102, 91, 79, 0.5)),
+    /* background-image: linear-gradient(rgba(45, 37, 35, 0.5), rgba(102, 91, 79, 0.5)),
                   url("./download.jpeg");
     background-size: 70px 70px;
-    background-repeat:round;   
+    background-repeat:round;    */
 }
+.pra{
+    border: 2px solid red;
+    border-width: 3px;
+    border-style:solid dashed double solid;  /* clockise */
+    border-radius: 4px;
+    /* border-image: url(./download.jpeg); */
+    /* border: 2px dashed blue; */
+    padding: 50px 30px 50px;
+    /*       top right+left bottom */
+    margin: 50px 20px 30px 50px;
+    /*      top  left bottom right */
+    height:100px;
+    width:100px;   /* to make a square card */
+    background-color:greenyellow;   /* to give background-color: ; */
+    color:blue;
+    text-decoration: underline;   /* underlines the text */
+
+}
+/* padding is the spacing around the content, while border is placed around padding , if padding is any */
