@@ -1,0 +1,33 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+.container{
+    padding: 50px;
+}
+.navbar-container{
+display: flex;
+  justify-content: space-between;  /* Distribute items evenly */
+  align-items: center;            /* Vertically center items */
+  padding: 10px 20px;
+
+}
+.heading-text{
+  display:block;
+  
+  font-size:50px;
+}
+.navbar-container ul li{
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+.button-group{
+    display:flex;
+    justify-content: flex-end ;
+}
+.nav-button{
+  background-color: #8B78E6;
+  padding:20px;
+  border-radius: 10px;
+  color:white;
+  text-align:center;
+}
