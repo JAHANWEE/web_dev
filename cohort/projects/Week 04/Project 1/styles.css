@@ -39,7 +39,7 @@ main{
 .leftmain p{
     margin:5% 0;
     font-family:Georgia, serif;
-    font-weight: 700;
+    font-weight: 500;
 }
 .leftmain button{
     background-color: green;
@@ -49,7 +49,12 @@ main{
     color: white;
     font-weight: 500px;
 }
-
 .rightmain{
     width:60%;
+}
+.topimage{
+    padding:20px;
+}
+.topimage img{
+    padding:5px;
 }
