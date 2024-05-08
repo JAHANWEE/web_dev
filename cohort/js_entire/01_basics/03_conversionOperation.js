@@ -40,3 +40,25 @@ let stringNum = String(sumNumber)
 console.log(stringNum)  // gives 333
 console.log( typeof stringNum)  // gives string
 
+// -------------------------------------Operations----------------------------------------------->
+let value =3
+let negValue =-value
+console.log(negValue) // gives -3
+
+let str1="hello"
+let str2=" jaani"
+console.log(str1+str2) // gives hello jaani
+console.log("1"+2) // gives 12
+console.log(1+"2") // gives 12
+console.log("1"+2+2) // gives 122
+console.log(1+2+"2") // gives 32
+
+console.log(+true) //gives 1
+// console.log(true+) // gives error
+
+let num1 , num2,num3;
+num1=num2=num3 =2+2;
+console.log(num1 , num2 , num3) // gives 4 4 4 
+let gameCounter =100;
+gameCounter++;
+console.log(gameCounter) // gives 101
