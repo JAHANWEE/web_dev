@@ -30,3 +30,16 @@ console.log(newDate.getTime()) //1715430218777
 console.log(newDate.getFullYear()) //2024
 console.log(newDate.getDay()) //6
 console.log(newDate.getDate()) //11
+
+console.log(`Time is ${newDate.getDay()} and the time is ${newDate.getTime()}`) //Time is 6 and the time is 1715442984174
+
+const datess =newDate.toLocaleString('default' ,{
+    weekday:"long",
+    timeZone:"Asia/Kolkata",
+    year: "numeric",
+    hour: "numeric",  // Hours in 24-hour format (0-23)
+    minute: "2-digit", // Minutes with leading zero (00-59)
+    second: "2-digit" , // Seconds with leading zero (00-59)
+    era:"long"
+})
+console.log(datess) // gives 2024 Saturday, 9:36:43 PM
