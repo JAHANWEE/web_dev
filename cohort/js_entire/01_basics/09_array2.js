@@ -18,7 +18,7 @@ console.log(real_another_array) /*
     6, 7, 6, 7, 4,
     5
   ]*/
-console.log(Array.isArray("jaani")) // gives false ,checks whether it is an array or not 
+console.log(Array.isArray("jaani")) // gives false ,checks whether it is an array or not vch
 console.log(Array.from("jaani")) //[ 'j', 'a', 'a', 'n', 'i' ]converts whatever given into an array 
 console.log(Array.from({name:"jaani"})) // interesting , you need to whether to make the array from key or values
 

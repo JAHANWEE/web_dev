@@ -70,6 +70,29 @@ console.log(user.hasOwnProperty('isLoggedIn')) // true , beacuse it checks wheth
 
 const course={
     coursename :"this is jaani" ,
-    price: "999"
+    price: "999",
+    courseInstructor:"jaani"
 }
+// ways to print objects
+console.log(course.courseInstructor) //jaani
+const{courseInstructor}=course
+console.log(courseInstructor)
+
+
+//destructuring
+// const navbar=({company})=>{
+
+// }
+// navbar(company ="hitesh");
+// console.log(navbar)
+
+//api concepts
+// we receive adta in form of JSON
+// {
+//     "name":"jaani",
+//     "coursename":"fullstack with jaani",
+//     "price":"free"
+// }
+
+
  
