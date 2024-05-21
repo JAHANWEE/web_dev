@@ -26,7 +26,6 @@ console.log(loginUsers("jaani")) //jaani just logged in
 console.log(loginUsers()) //undefined just logged in , when no arguments are given
 
 
-
 //when the number of arguments are not defined clearly
 function calcCartPrice( /*rest operator*/...num1){ //... signify rest as well as spread operator that helps us take multiple argumnets
     return num1;
